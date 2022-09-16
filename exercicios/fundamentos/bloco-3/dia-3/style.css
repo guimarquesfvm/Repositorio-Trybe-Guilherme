@@ -29,4 +29,10 @@ li em{
 
 /* ////////////////////// */
 
+div li:not(:nth-child(n+4)){
+    color: blue;
+}
 
+.java{
+    background-color: pink;
+}
