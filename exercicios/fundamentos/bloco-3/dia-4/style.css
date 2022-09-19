@@ -1,0 +1,53 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black; 
+}
+
+body{
+    background-color: #F7F7FF;
+}
+
+header{
+    background-color: #C03221;
+    color: white;
+    text-align: center;
+}
+
+#fatos h2{
+    background-color: #C03221;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h3{
+    margin-left: 8%;
+}
+#info-gerais{
+    
+}
+
+#info-gerais article{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 8%;
+}
+
+#tabela { 
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#tabela h4,ul{
+    margin: auto;
+    background-color: #c0c0d4;
+    margin-left: 100px;
+    font-size: 1.2em;
+}
+img{
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 8%;
+}
