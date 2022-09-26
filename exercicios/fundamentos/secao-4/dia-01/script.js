@@ -1,8 +1,14 @@
-const a = 2;
-const b = 3;
+let nomePeca = "Bispo";
 
-console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a%b)
+switch (nomePeca.toLowerCase()) {
+  
+  case "bispo":
+    console.log("diagonais")
+    break;
+  case "cavalo":
+    console.log("sei la como q funciona")
+    break;
+  default:
+    console.log("tá na disney?")
+    break;
+}
