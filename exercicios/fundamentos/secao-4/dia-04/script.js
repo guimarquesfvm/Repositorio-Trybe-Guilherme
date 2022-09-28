@@ -45,26 +45,58 @@
 //     apartamento: 101,
 //   },
 // ];
-
-// console.log(moradores[1]);
-
-// let names = {
-//   person1: 'João',
-//   person2: 'Maria',
-//   person3: 'Jorge',
-// };
-
-// for (i in names){
-//   console.log("Olá, " + names[i]);
-// }
-
-// let car = {
-//   model: 'A3 Sedan',
-//   manufacturer: 'Audi',
-//   year: 2020
-// };
-
 // for (i in car){
 //   console.log(i + ' ' + car[i]);
 // }
 
+// let info = {
+//   personagem: 'Margarida',
+//   origem: 'Pato Donald',
+//   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+//   recorrente: 'Sim',
+// };
+
+// // console.log(info.personagem);
+// // console.log(info.origem);
+// // console.log(info.nota);
+
+// for (const key in info) {
+//   console.log(info[key]);
+// }
+
+// let leitor = {
+//   nome: 'Julia',
+//   sobrenome: 'Pessoa',
+//   idade: 21,
+//   livrosFavoritos: [
+//     {
+//       titulo: 'O Pior Dia de Todos',
+//       autor: 'Daniela Kopsch',
+//       editora: 'Tordesilhas',
+//     },
+//   ],
+// };
+// let livro = leitor[0];
+// console.log(leitor.livrosFavoritos['titulo']);
+
+// let=
+
+// function name(lista) {
+
+//   for (i of name){
+    
+//   }
+
+// }
+
+
+function verificaPalindrome(word) {
+  for(index in word) {
+    if(word[index] != word[(word.length - 1) - index]) {
+      return false;
+    }
+  }
+  return true;
+}
+
+console.log(verificaPalindrome('arara'));
