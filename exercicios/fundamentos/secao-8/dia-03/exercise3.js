@@ -62,6 +62,8 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
+//Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.
+
 
 function fantasyOrScienceFiction(books) {
   // escreva seu código aqui
